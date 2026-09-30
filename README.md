@@ -2,8 +2,6 @@
 
 A distributed, in-memory key-value store built from scratch in C# and .NET, a Redis-style cache with a custom binary wire protocol, LRU/TTL eviction, write-ahead-log persistence, and leader-follower replication.
 
-> Working title, rename freely once you've settled on something you like.
-
 Cascade is not a wrapper around an existing cache library. It is the server itself: a TCP listener that speaks a hand-rolled binary protocol, an in-memory store with real eviction and expiry semantics, a crash-safe persistence layer, and a replication mechanism that lets a follower take over if the leader goes down.
 
 > Store data in memory. Survive a crash. Replicate to a follower. Understand every layer in between.
