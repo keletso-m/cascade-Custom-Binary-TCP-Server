@@ -40,7 +40,7 @@ Every high-traffic system eventually needs a cache layer in front of its databas
 3. What happens when one server isn't enough? → **replication**
 4. What does "the write succeeded" actually mean when there's more than one copy of the data? → **consistency**
 
-Cascade exists to answer those questions in code, not just in theory — and to do it in idiomatic, high-performance C#, using the same low-level tools (raw sockets, zero-copy buffer parsing, hand-rolled protocols) that real database and cache engines are built with.
+Cascade exists to answer those questions in code, not just in theory, and to do it in idiomatic, high-performance C#, using the same low-level tools (raw sockets, zero-copy buffer parsing, hand-rolled protocols) that real database and cache engines are built with.
 
 ---
 
