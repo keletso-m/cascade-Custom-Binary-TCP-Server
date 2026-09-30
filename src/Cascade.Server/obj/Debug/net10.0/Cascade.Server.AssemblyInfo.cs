@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cascade.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+431097fc29dc784f14e370bf7a308067839daeec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5491412675c1cd8f9bbb1f897cbefce5da990076")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cascade.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cascade.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
