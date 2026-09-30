@@ -33,7 +33,7 @@ Cascade is not a wrapper around an existing cache library. It is the server itse
 
 ## Why This Exists
 
-Every high-traffic system eventually needs a cache layer in front of its database — but a cache layer that's actually worth trusting has to answer four hard questions:
+Every high-traffic system eventually needs a cache layer in front of its database, but a cache layer that's actually worth trusting has to answer four hard questions:
 
 1. What happens when memory fills up? → **eviction policy**
 2. What happens when the process crashes? → **durability**
